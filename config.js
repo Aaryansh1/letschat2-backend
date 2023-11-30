@@ -5,7 +5,7 @@ var config = (Sequelize.Options = {
   dialect: "postgresql",
   username: "postgres",
   password: "a",
-  database: "",
+  database: "letschat",
 });
 var setConnection = function () {
   return new Sequelize("", "", "", config);
